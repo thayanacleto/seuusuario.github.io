@@ -358,11 +358,13 @@ footer {
     background: #1c1c1c;
     padding: 30px;
     border-radius: 15px;
-    width: 350px;
+    width: 100%;             /* Deixa fluido */
+    max-width: 350px;        /* Limita o tamanho máximo no PC */
     text-align: left;
     border: 1px solid #2a2a2a;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .projeto-card:hover {
     transform: translateY(-8px);
@@ -404,4 +406,31 @@ footer {
 
 .projeto-card a:hover {
     transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    /* Diminui o respiro das seções para caber melhor na tela */
+    section {
+        padding: 50px 0;
+    }
+
+    /* Diminui o texto principal e tira a largura fixa do typewriter */
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    #typewriter {
+        min-width: auto; 
+    }
+
+    /* Diminui um pouco a foto de perfil */
+    .profile-img {
+        width: 130px;
+        height: 130px;
+    }
+
+    /* Ajusta os títulos */
+    #projetos h2 {
+        font-size: 2rem;
+    }
 }
