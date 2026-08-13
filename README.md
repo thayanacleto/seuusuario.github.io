@@ -19,7 +19,7 @@ O objetivo deste projeto é consolidar meus conhecimentos em desenvolvimento web
 
 ## 🌐 Acesse o Projeto
 
-🔗 (coloque aqui o link do GitHub Pages depois que ativar)
+🔗https://thayanacleto.github.io/landing-page/
 
 ## 📚 Sobre Mim
 
